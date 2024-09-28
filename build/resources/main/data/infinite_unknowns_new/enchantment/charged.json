@@ -1,0 +1,21 @@
+{
+  "description": {
+    "translate": "enchantment.infinite_unknowns_new.charged"
+  },
+  "supported_items": "#infinite_unknowns_new:can_charge",
+  "weight": 1,
+  "max_level": 3,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 10
+  },
+  "max_cost": {
+    "base": 6,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 1000,
+  "slots": [
+    "any"
+  ],
+  "exclusive_set": []
+}

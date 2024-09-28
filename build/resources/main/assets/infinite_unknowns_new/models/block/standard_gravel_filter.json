@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "infinite_unknowns_new:block/standard_gravel_filter_back",
+    "up": "infinite_unknowns_new:block/standard_gravel_filter_back",
+    "north": "infinite_unknowns_new:block/standard_gravel_filter_front",
+    "east": "infinite_unknowns_new:block/standard_gravel_filter_side",
+    "south": "infinite_unknowns_new:block/standard_gravel_filter_back",
+    "west": "infinite_unknowns_new:block/standard_gravel_filter_side",
+    "particle": "infinite_unknowns_new:block/standard_gravel_filter_back"
+  },
+  "render_type": "solid"
+}

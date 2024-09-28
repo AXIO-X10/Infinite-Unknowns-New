@@ -1,3 +1,17 @@
 {
-  "item_group.infinite_unknowns_new.page_blocks": "Infinite Unknowns - Blocks"
+  "block.infinite_unknowns_new.gravitational_gravel_filter": "§bGravitational Gravel Filter",
+  "block.infinite_unknowns_new.simple_gravel_filter": "§cSimple Gravel Filter",
+  "item_group.infinite_unknowns_new.page_items": "§aInfinite Unknowns - Items",
+  "item.infinite_unknowns_new.exhanced_energizing_gloves": "§aExhanced Energizing Gloves",
+  "enchantment.infinite_unknowns_new.charged": "§bCharged",
+  "item.infinite_unknowns_new.iron_machining_hammer": "§cIron Machining Hammer",
+  "item_group.infinite_unknowns_new.page_blocks": "§bInfinite Unknowns - Blocks",
+  "block.infinite_unknowns_new.simple_framework": "§cSimple Framework",
+  "item.infinite_unknowns_new.gravitational_energizing_gloves": "§bGravitational Energizing Gloves",
+  "block.infinite_unknowns_new.standard_gravel_filter": "§6Standard Gravel Filter",
+  "block.infinite_unknowns_new.standard_framework": "§6Standard Framework",
+  "block.infinite_unknowns_new.advanced_framework": "§aExhanced Framework",
+  "block.infinite_unknowns_new.gravitational_framework": "Simple Framework",
+  "block.infinite_unknowns_new.exhanced_gravel_filter": "§aExhanced Gravel Filter",
+  "item.infinite_unknowns_new.standard_energizing_gloves": "§6Standard Energizing Gloves"
 }

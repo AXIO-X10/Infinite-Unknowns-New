@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "infinite_unknowns_new:block/standard_framework"
+    }
+  }
+}

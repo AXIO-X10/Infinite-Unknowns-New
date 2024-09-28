@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "infinite_unknowns_new:gravitational_gravel_filter",
+    "infinite_unknowns_new:exhanced_gravel_filter",
+    "infinite_unknowns_new:standard_gravel_filter",
+    "infinite_unknowns_new:simple_gravel_filter",
+    "infinite_unknowns_new:gravitational_framework",
+    "infinite_unknowns_new:advanced_framework",
+    "infinite_unknowns_new:standard_framework",
+    "infinite_unknowns_new:simple_framework"
+  ]
+}

@@ -4,7 +4,7 @@
   "definition": {
     "name": "Infinite Unknowns - Blocks",
     "icon": {
-      "value": "Blocks.AMETHYST_CLUSTER"
+      "value": "CUSTOM:SimpleFramework"
     },
     "showSearch": false
   }

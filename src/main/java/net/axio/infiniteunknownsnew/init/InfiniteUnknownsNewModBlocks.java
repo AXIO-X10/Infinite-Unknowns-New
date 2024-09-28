@@ -1,0 +1,34 @@
+
+/*
+ *    MCreator note: This file will be REGENERATED on each build.
+ */
+package net.axio.infiniteunknownsnew.init;
+
+import net.neoforged.neoforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.DeferredBlock;
+
+import net.minecraft.world.level.block.Block;
+
+import net.axio.infiniteunknownsnew.block.StandardGravelFilterBlock;
+import net.axio.infiniteunknownsnew.block.StandardFrameworkBlock;
+import net.axio.infiniteunknownsnew.block.SimpleGravelFilterBlock;
+import net.axio.infiniteunknownsnew.block.SimpleFrameworkBlock;
+import net.axio.infiniteunknownsnew.block.GravitationalGravelFilterBlock;
+import net.axio.infiniteunknownsnew.block.GravitationalFrameworkBlock;
+import net.axio.infiniteunknownsnew.block.ExhancedGravelFilterBlock;
+import net.axio.infiniteunknownsnew.block.AdvancedFrameworkBlock;
+import net.axio.infiniteunknownsnew.InfiniteUnknownsNewMod;
+
+public class InfiniteUnknownsNewModBlocks {
+	public static final DeferredRegister.Blocks REGISTRY = DeferredRegister.createBlocks(InfiniteUnknownsNewMod.MODID);
+	public static final DeferredBlock<Block> SIMPLE_FRAMEWORK = REGISTRY.register("simple_framework", SimpleFrameworkBlock::new);
+	public static final DeferredBlock<Block> STANDARD_FRAMEWORK = REGISTRY.register("standard_framework", StandardFrameworkBlock::new);
+	public static final DeferredBlock<Block> ADVANCED_FRAMEWORK = REGISTRY.register("advanced_framework", AdvancedFrameworkBlock::new);
+	public static final DeferredBlock<Block> GRAVITATIONAL_FRAMEWORK = REGISTRY.register("gravitational_framework", GravitationalFrameworkBlock::new);
+	public static final DeferredBlock<Block> SIMPLE_GRAVEL_FILTER = REGISTRY.register("simple_gravel_filter", SimpleGravelFilterBlock::new);
+	public static final DeferredBlock<Block> STANDARD_GRAVEL_FILTER = REGISTRY.register("standard_gravel_filter", StandardGravelFilterBlock::new);
+	public static final DeferredBlock<Block> EXHANCED_GRAVEL_FILTER = REGISTRY.register("exhanced_gravel_filter", ExhancedGravelFilterBlock::new);
+	public static final DeferredBlock<Block> GRAVITATIONAL_GRAVEL_FILTER = REGISTRY.register("gravitational_gravel_filter", GravitationalGravelFilterBlock::new);
+	// Start of user code block custom blocks
+	// End of user code block custom blocks
+}

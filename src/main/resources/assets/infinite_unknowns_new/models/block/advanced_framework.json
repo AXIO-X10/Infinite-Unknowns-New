@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "infinite_unknowns_new:block/advanced_framework",
+    "particle": "infinite_unknowns_new:block/advanced_framework"
+  },
+  "render_type": "cutout_mipped"
+}

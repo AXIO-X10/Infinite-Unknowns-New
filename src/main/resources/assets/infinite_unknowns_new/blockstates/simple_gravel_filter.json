@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "infinite_unknowns_new:block/simple_gravel_filter"
+    },
+    "facing=east": {
+      "model": "infinite_unknowns_new:block/simple_gravel_filter",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "infinite_unknowns_new:block/simple_gravel_filter",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "infinite_unknowns_new:block/simple_gravel_filter",
+      "y": 270
+    }
+  }
+}

@@ -18,6 +18,10 @@ import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.axio.infiniteunknownsnew.init.InfiniteUnknownsNewModTabs;
+import net.axio.infiniteunknownsnew.init.InfiniteUnknownsNewModItems;
+import net.axio.infiniteunknownsnew.init.InfiniteUnknownsNewModBlocks;
+
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Map;
 import java.util.List;
@@ -35,6 +39,12 @@ public class InfiniteUnknownsNewMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
+
+		InfiniteUnknownsNewModBlocks.REGISTRY.register(modEventBus);
+
+		InfiniteUnknownsNewModItems.REGISTRY.register(modEventBus);
+
+		InfiniteUnknownsNewModTabs.REGISTRY.register(modEventBus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

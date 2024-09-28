@@ -1,0 +1,22 @@
+{
+  "_fv": 69,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Charged",
+    "supportedSlots": "any",
+    "weight": 1,
+    "anvilCost": 1000,
+    "maxLevel": 3,
+    "damageModifier": 0,
+    "incompatibleEnchantments": [],
+    "supportedItems": [
+      {
+        "value": "TAG:mod:can_charge"
+      }
+    ],
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "canGenerateInLootTables": false,
+    "canVillagerTrade": false
+  }
+}
