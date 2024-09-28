@@ -1,2 +1,5 @@
-# Infinite-Unknowns-New
- 无限未知！
+# 无限未知，无限可能！
+ 欢迎来到无限未知，这是一个使用MCreator制作的模组。
+
+>[!caution]
+> 暂未完成！
