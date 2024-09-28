@@ -3,3 +3,4 @@
 
 >[!caution]
 > 暂未完成！
+> 如需查看Wiki，请移至[Gitee](https://gitee.com/axio-x10/infinite-unkonwns-new)。
