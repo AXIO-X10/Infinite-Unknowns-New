@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
+    "infinite_unknowns_new:gravitational_machining_table",
+    "infinite_unknowns_new:exhanced_machining_table",
+    "infinite_unknowns_new:standard_machining_table",
+    "infinite_unknowns_new:simple_machining_table",
     "infinite_unknowns_new:gravitational_gravel_filter",
     "infinite_unknowns_new:exhanced_gravel_filter",
     "infinite_unknowns_new:standard_gravel_filter",

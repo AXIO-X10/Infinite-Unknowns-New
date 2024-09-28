@@ -34,7 +34,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Simple Gravel Filter",
+    "name": "§cSimple Gravel Filter",
     "specialInformation": {
       "fixedValue": []
     },
@@ -108,7 +108,7 @@
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
-    "inventorySize": 9,
+    "inventorySize": 10,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,

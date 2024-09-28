@@ -19,8 +19,10 @@ import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.axio.infiniteunknownsnew.init.InfiniteUnknownsNewModTabs;
+import net.axio.infiniteunknownsnew.init.InfiniteUnknownsNewModMenus;
 import net.axio.infiniteunknownsnew.init.InfiniteUnknownsNewModItems;
 import net.axio.infiniteunknownsnew.init.InfiniteUnknownsNewModBlocks;
+import net.axio.infiniteunknownsnew.init.InfiniteUnknownsNewModBlockEntities;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Map;
@@ -41,10 +43,12 @@ public class InfiniteUnknownsNewMod {
 		modEventBus.addListener(this::registerNetworking);
 
 		InfiniteUnknownsNewModBlocks.REGISTRY.register(modEventBus);
-
+		InfiniteUnknownsNewModBlockEntities.REGISTRY.register(modEventBus);
 		InfiniteUnknownsNewModItems.REGISTRY.register(modEventBus);
 
 		InfiniteUnknownsNewModTabs.REGISTRY.register(modEventBus);
+
+		InfiniteUnknownsNewModMenus.REGISTRY.register(modEventBus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

@@ -22,6 +22,8 @@ public class InfiniteUnknownsNewModTabs {
 				tabData.accept(InfiniteUnknownsNewModItems.EXHANCED_ENERGIZING_GLOVES.get());
 				tabData.accept(InfiniteUnknownsNewModItems.GRAVITATIONAL_ENERGIZING_GLOVES.get());
 				tabData.accept(InfiniteUnknownsNewModItems.IRON_MACHINING_HAMMER.get());
+				tabData.accept(InfiniteUnknownsNewModItems.DIAMOND_MACHINING_HAMMER.get());
+				tabData.accept(InfiniteUnknownsNewModItems.NETHERITE_MACHINING_HAMMER.get());
 			})
 
 					.build());
@@ -35,6 +37,10 @@ public class InfiniteUnknownsNewModTabs {
 				tabData.accept(InfiniteUnknownsNewModBlocks.STANDARD_GRAVEL_FILTER.get().asItem());
 				tabData.accept(InfiniteUnknownsNewModBlocks.EXHANCED_GRAVEL_FILTER.get().asItem());
 				tabData.accept(InfiniteUnknownsNewModBlocks.GRAVITATIONAL_GRAVEL_FILTER.get().asItem());
+				tabData.accept(InfiniteUnknownsNewModBlocks.SIMPLE_MACHINING_TABLE.get().asItem());
+				tabData.accept(InfiniteUnknownsNewModBlocks.STANDARD_MACHINING_TABLE.get().asItem());
+				tabData.accept(InfiniteUnknownsNewModBlocks.EXHANCED_MACHINING_TABLE.get().asItem());
+				tabData.accept(InfiniteUnknownsNewModBlocks.GRAVITATIONAL_MACHINING_TABLE.get().asItem());
 			})
 
 					.build());

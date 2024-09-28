@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "infinite_unknowns_new:block/gravitational_machining_table_bottom",
+    "up": "infinite_unknowns_new:block/gravitational_machining_table_top",
+    "north": "infinite_unknowns_new:block/gravitational_machining_table_side",
+    "east": "infinite_unknowns_new:block/gravitational_machining_table_side",
+    "south": "infinite_unknowns_new:block/gravitational_machining_table_side",
+    "west": "infinite_unknowns_new:block/gravitational_machining_table_side",
+    "particle": "infinite_unknowns_new:block/gravitational_machining_table_bottom"
+  },
+  "render_type": "solid"
+}

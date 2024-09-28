@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "infinite_unknowns_new:blocks/exhanced_machining_table",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "infinite_unknowns_new:exhanced_machining_table"
+        }
+      ]
+    }
+  ]
+}

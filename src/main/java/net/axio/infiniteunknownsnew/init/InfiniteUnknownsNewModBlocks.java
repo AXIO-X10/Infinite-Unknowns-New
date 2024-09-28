@@ -9,12 +9,16 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 
 import net.minecraft.world.level.block.Block;
 
+import net.axio.infiniteunknownsnew.block.StandardMachiningTableBlock;
 import net.axio.infiniteunknownsnew.block.StandardGravelFilterBlock;
 import net.axio.infiniteunknownsnew.block.StandardFrameworkBlock;
+import net.axio.infiniteunknownsnew.block.SimpleMachiningTableBlock;
 import net.axio.infiniteunknownsnew.block.SimpleGravelFilterBlock;
 import net.axio.infiniteunknownsnew.block.SimpleFrameworkBlock;
+import net.axio.infiniteunknownsnew.block.GravitationalMachiningTableBlock;
 import net.axio.infiniteunknownsnew.block.GravitationalGravelFilterBlock;
 import net.axio.infiniteunknownsnew.block.GravitationalFrameworkBlock;
+import net.axio.infiniteunknownsnew.block.ExhancedMachiningTableBlock;
 import net.axio.infiniteunknownsnew.block.ExhancedGravelFilterBlock;
 import net.axio.infiniteunknownsnew.block.AdvancedFrameworkBlock;
 import net.axio.infiniteunknownsnew.InfiniteUnknownsNewMod;
@@ -29,6 +33,10 @@ public class InfiniteUnknownsNewModBlocks {
 	public static final DeferredBlock<Block> STANDARD_GRAVEL_FILTER = REGISTRY.register("standard_gravel_filter", StandardGravelFilterBlock::new);
 	public static final DeferredBlock<Block> EXHANCED_GRAVEL_FILTER = REGISTRY.register("exhanced_gravel_filter", ExhancedGravelFilterBlock::new);
 	public static final DeferredBlock<Block> GRAVITATIONAL_GRAVEL_FILTER = REGISTRY.register("gravitational_gravel_filter", GravitationalGravelFilterBlock::new);
+	public static final DeferredBlock<Block> SIMPLE_MACHINING_TABLE = REGISTRY.register("simple_machining_table", SimpleMachiningTableBlock::new);
+	public static final DeferredBlock<Block> STANDARD_MACHINING_TABLE = REGISTRY.register("standard_machining_table", StandardMachiningTableBlock::new);
+	public static final DeferredBlock<Block> EXHANCED_MACHINING_TABLE = REGISTRY.register("exhanced_machining_table", ExhancedMachiningTableBlock::new);
+	public static final DeferredBlock<Block> GRAVITATIONAL_MACHINING_TABLE = REGISTRY.register("gravitational_machining_table", GravitationalMachiningTableBlock::new);
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

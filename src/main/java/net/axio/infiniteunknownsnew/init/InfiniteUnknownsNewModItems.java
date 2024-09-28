@@ -13,9 +13,11 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.axio.infiniteunknownsnew.item.StandardEnergizingGlovesItem;
+import net.axio.infiniteunknownsnew.item.NetheriteMachiningHammerItem;
 import net.axio.infiniteunknownsnew.item.IronMachiningHammerItem;
 import net.axio.infiniteunknownsnew.item.GravitationalEnergizingGlovesItem;
 import net.axio.infiniteunknownsnew.item.ExhancedEnergizingGlovesItem;
+import net.axio.infiniteunknownsnew.item.DiamondMachiningHammerItem;
 import net.axio.infiniteunknownsnew.InfiniteUnknownsNewMod;
 
 public class InfiniteUnknownsNewModItems {
@@ -32,6 +34,12 @@ public class InfiniteUnknownsNewModItems {
 	public static final DeferredItem<Item> EXHANCED_ENERGIZING_GLOVES = REGISTRY.register("exhanced_energizing_gloves", ExhancedEnergizingGlovesItem::new);
 	public static final DeferredItem<Item> GRAVITATIONAL_ENERGIZING_GLOVES = REGISTRY.register("gravitational_energizing_gloves", GravitationalEnergizingGlovesItem::new);
 	public static final DeferredItem<Item> IRON_MACHINING_HAMMER = REGISTRY.register("iron_machining_hammer", IronMachiningHammerItem::new);
+	public static final DeferredItem<Item> DIAMOND_MACHINING_HAMMER = REGISTRY.register("diamond_machining_hammer", DiamondMachiningHammerItem::new);
+	public static final DeferredItem<Item> NETHERITE_MACHINING_HAMMER = REGISTRY.register("netherite_machining_hammer", NetheriteMachiningHammerItem::new);
+	public static final DeferredItem<Item> SIMPLE_MACHINING_TABLE = block(InfiniteUnknownsNewModBlocks.SIMPLE_MACHINING_TABLE);
+	public static final DeferredItem<Item> STANDARD_MACHINING_TABLE = block(InfiniteUnknownsNewModBlocks.STANDARD_MACHINING_TABLE);
+	public static final DeferredItem<Item> EXHANCED_MACHINING_TABLE = block(InfiniteUnknownsNewModBlocks.EXHANCED_MACHINING_TABLE);
+	public static final DeferredItem<Item> GRAVITATIONAL_MACHINING_TABLE = block(InfiniteUnknownsNewModBlocks.GRAVITATIONAL_MACHINING_TABLE);
 
 	// Start of user code block custom items
 	// End of user code block custom items
