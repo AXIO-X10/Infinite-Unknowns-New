@@ -1,9 +1,0 @@
-/kill b1febd38-080b-41f4-bea8-c1e9545234fd
-/time set noon
-/time set night
-/time set midnight
-/locate biome minecraft:forest
-/tp @s 124 86 -553
-/time set night
-/time set day
-/damage @s 40 infinite_unknowns_new:electric_shock
