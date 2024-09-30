@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Standard Energizing Gloves",
+    "name": "§6Standard Energizing Gloves",
     "rarity": "COMMON",
     "creativeTabs": [
       {
@@ -42,6 +42,9 @@
     },
     "onRightClickedOnBlock": {
       "name": "ProcessStandardEnergizingGloves"
+    },
+    "onItemInInventoryTick": {
+      "name": "ProcessStandardEnergizingGlovesAuto"
     },
     "enableRanged": false,
     "shootConstantly": false,

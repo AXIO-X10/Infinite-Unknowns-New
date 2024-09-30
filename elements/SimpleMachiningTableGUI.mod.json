@@ -230,7 +230,7 @@
         "type": "button",
         "data": {
           "name": "button_machining",
-          "text": "Machining",
+          "text": "§cEasy Machining",
           "isUndecorated": false,
           "width": 36,
           "height": 20,

@@ -1,0 +1,25 @@
+{
+  "description": {
+    "translate": "enchantment.infinite_unknowns_new.auto_charge"
+  },
+  "supported_items": [
+    "infinite_unknowns_new:standard_energizing_gloves",
+    "infinite_unknowns_new:exhanced_energizing_gloves",
+    "infinite_unknowns_new:gravitational_energizing_gloves"
+  ],
+  "weight": 7,
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 10
+  },
+  "max_cost": {
+    "base": 6,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "any"
+  ],
+  "exclusive_set": []
+}

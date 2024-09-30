@@ -2,7 +2,7 @@
   "_fv": 69,
   "_type": "enchantment",
   "definition": {
-    "name": "Charged",
+    "name": "§bCharged",
     "supportedSlots": "any",
     "weight": 1,
     "anvilCost": 1000,

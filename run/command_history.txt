@@ -6,3 +6,4 @@
 /tp @s 124 86 -553
 /time set night
 /time set day
+/damage @s 40 infinite_unknowns_new:electric_shock
