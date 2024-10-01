@@ -1,3 +1,4 @@
+语言: English[README.md] , 简体中文
 ![mod_icon](https://cdn.modrinth.com/data/cached_images/3982a4ecfc4b933003ed381a91df3655aa9ea62f.png)
 # 无限未知，无限可能！
 欢迎来到无限未知，一个没有固定主题的科技模组。
