@@ -20,4 +20,4 @@ Energizing Gloves:
 And more items and blocks ...
 
 >[!CAUTION]
->This mod is not yet complete, there may be many bugs, welcome to go to Github for feedback.**
+>This module has not yet been completed, if you encounter any problems, please report them in time.
