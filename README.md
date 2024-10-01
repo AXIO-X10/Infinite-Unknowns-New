@@ -1,9 +1,9 @@
 ![mod_icon](https://cdn.modrinth.com/data/cached_images/3982a4ecfc4b933003ed381a91df3655aa9ea62f.png)
 # Infinite unknowns, infinite possibilities!
-Welcome to Infinite Unknowns , a more casual update of the tech mod.
+Welcome to Infinite Unknowns, a tech mod with no fixed theme.
 This mod is made using MCreator.
 ## Content
-**There are a lot of items and blocks around technology.**
+**Some creative tech items and blocks have been added, and here are some examples.**
 
 4 kinds of frameworks:
 ![Framework](https://cdn.modrinth.com/data/cached_images/9865b9445800b9979b40fab6640f3bc32945c0b6.png)
