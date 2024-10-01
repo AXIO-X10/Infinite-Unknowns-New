@@ -49,7 +49,7 @@ public class ProcessSimpleGravelFilterProcedure {
 							}
 							return ItemStack.EMPTY;
 						}
-					}.getItemStack(world, BlockPos.containing(x, y, z), 1)).getBurnTime(null)));
+					}.getItemStack(world, BlockPos.containing(x, y, z), 1)).getBurnTime(null) * 0.8));
 				if (world instanceof Level _level)
 					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 			}
