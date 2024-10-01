@@ -16,11 +16,13 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.core.registries.BuiltInRegistries;
 
 import net.axio.infiniteunknownsnew.block.entity.SimpleMachiningTableBlockEntity;
+import net.axio.infiniteunknownsnew.block.entity.SimpleGravelFilterBlockEntity;
 import net.axio.infiniteunknownsnew.InfiniteUnknownsNewMod;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
 public class InfiniteUnknownsNewModBlockEntities {
 	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(BuiltInRegistries.BLOCK_ENTITY_TYPE, InfiniteUnknownsNewMod.MODID);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> SIMPLE_GRAVEL_FILTER = register("simple_gravel_filter", InfiniteUnknownsNewModBlocks.SIMPLE_GRAVEL_FILTER, SimpleGravelFilterBlockEntity::new);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> SIMPLE_MACHINING_TABLE = register("simple_machining_table", InfiniteUnknownsNewModBlocks.SIMPLE_MACHINING_TABLE, SimpleMachiningTableBlockEntity::new);
 
 	private static DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> register(String registryname, DeferredHolder<Block, Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
@@ -29,6 +31,7 @@ public class InfiniteUnknownsNewModBlockEntities {
 
 	@SubscribeEvent
 	public static void registerCapabilities(RegisterCapabilitiesEvent event) {
+		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, SIMPLE_GRAVEL_FILTER.get(), (blockEntity, side) -> ((SimpleGravelFilterBlockEntity) blockEntity).getItemHandler());
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, SIMPLE_MACHINING_TABLE.get(), (blockEntity, side) -> ((SimpleMachiningTableBlockEntity) blockEntity).getItemHandler());
 	}
 }

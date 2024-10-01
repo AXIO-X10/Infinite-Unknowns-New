@@ -13,11 +13,19 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.axio.infiniteunknownsnew.item.StandardEnergizingGlovesItem;
+import net.axio.infiniteunknownsnew.item.NetheritePlateItem;
 import net.axio.infiniteunknownsnew.item.NetheriteMachiningHammerItem;
+import net.axio.infiniteunknownsnew.item.NetheriteBarItem;
+import net.axio.infiniteunknownsnew.item.IronPlateItem;
 import net.axio.infiniteunknownsnew.item.IronMachiningHammerItem;
+import net.axio.infiniteunknownsnew.item.IronBarItem;
 import net.axio.infiniteunknownsnew.item.GravitationalEnergizingGlovesItem;
+import net.axio.infiniteunknownsnew.item.GoldPlateItem;
+import net.axio.infiniteunknownsnew.item.GoldBarItem;
 import net.axio.infiniteunknownsnew.item.ExhancedEnergizingGlovesItem;
+import net.axio.infiniteunknownsnew.item.DiamondPlateItem;
 import net.axio.infiniteunknownsnew.item.DiamondMachiningHammerItem;
+import net.axio.infiniteunknownsnew.item.DiamondBarItem;
 import net.axio.infiniteunknownsnew.InfiniteUnknownsNewMod;
 
 public class InfiniteUnknownsNewModItems {
@@ -40,6 +48,14 @@ public class InfiniteUnknownsNewModItems {
 	public static final DeferredItem<Item> STANDARD_MACHINING_TABLE = block(InfiniteUnknownsNewModBlocks.STANDARD_MACHINING_TABLE);
 	public static final DeferredItem<Item> EXHANCED_MACHINING_TABLE = block(InfiniteUnknownsNewModBlocks.EXHANCED_MACHINING_TABLE);
 	public static final DeferredItem<Item> GRAVITATIONAL_MACHINING_TABLE = block(InfiniteUnknownsNewModBlocks.GRAVITATIONAL_MACHINING_TABLE);
+	public static final DeferredItem<Item> IRON_BAR = REGISTRY.register("iron_bar", IronBarItem::new);
+	public static final DeferredItem<Item> GOLD_BAR = REGISTRY.register("gold_bar", GoldBarItem::new);
+	public static final DeferredItem<Item> DIAMOND_BAR = REGISTRY.register("diamond_bar", DiamondBarItem::new);
+	public static final DeferredItem<Item> NETHERITE_BAR = REGISTRY.register("netherite_bar", NetheriteBarItem::new);
+	public static final DeferredItem<Item> IRON_PLATE = REGISTRY.register("iron_plate", IronPlateItem::new);
+	public static final DeferredItem<Item> GOLD_PLATE = REGISTRY.register("gold_plate", GoldPlateItem::new);
+	public static final DeferredItem<Item> DIAMOND_PLATE = REGISTRY.register("diamond_plate", DiamondPlateItem::new);
+	public static final DeferredItem<Item> NETHERITE_PLATE = REGISTRY.register("netherite_plate", NetheritePlateItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

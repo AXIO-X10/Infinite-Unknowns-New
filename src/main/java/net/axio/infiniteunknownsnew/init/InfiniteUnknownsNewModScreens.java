@@ -10,11 +10,13 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.api.distmarker.Dist;
 
 import net.axio.infiniteunknownsnew.client.gui.SimpleMachiningTableGUIScreen;
+import net.axio.infiniteunknownsnew.client.gui.SimpleGravelFilterGUIScreen;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class InfiniteUnknownsNewModScreens {
 	@SubscribeEvent
 	public static void clientLoad(RegisterMenuScreensEvent event) {
 		event.register(InfiniteUnknownsNewModMenus.SIMPLE_MACHINING_TABLE_GUI.get(), SimpleMachiningTableGUIScreen::new);
+		event.register(InfiniteUnknownsNewModMenus.SIMPLE_GRAVEL_FILTER_GUI.get(), SimpleGravelFilterGUIScreen::new);
 	}
 }

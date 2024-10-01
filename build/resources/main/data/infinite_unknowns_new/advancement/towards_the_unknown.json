@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "id": "infinite_unknowns_new:simple_framework"
+    },
+    "title": {
+      "translate": "advancements.towards_the_unknown.title"
+    },
+    "description": {
+      "translate": "advancements.towards_the_unknown.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "towards_the_unknown_0": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

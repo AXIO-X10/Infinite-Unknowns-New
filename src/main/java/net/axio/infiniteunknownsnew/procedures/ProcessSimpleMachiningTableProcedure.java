@@ -9,6 +9,7 @@ import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.BlockPos;
 
 import net.axio.infiniteunknownsnew.init.InfiniteUnknownsNewModItems;
@@ -41,6 +42,14 @@ public class ProcessSimpleMachiningTableProcedure {
 					ItemStack _setstack = new ItemStack(Items.GOLDEN_APPLE).copy();
 					_setstack.setCount(1);
 					_itemHandlerModifiable.setStackInSlot(10, _setstack);
+				}
+				if (world instanceof ILevelExtension _ext && world instanceof ServerLevel _serverLevel
+						&& _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
+					int _slotid = 11;
+					ItemStack _stk = _itemHandlerModifiable.getStackInSlot(_slotid).copy();
+					_stk.hurtAndBreak(1, _serverLevel, null, _stkprov -> {
+					});
+					_itemHandlerModifiable.setStackInSlot(_slotid, _stk);
 				}
 				ProcessClearProcedure.execute(world, x, y, z);
 			}

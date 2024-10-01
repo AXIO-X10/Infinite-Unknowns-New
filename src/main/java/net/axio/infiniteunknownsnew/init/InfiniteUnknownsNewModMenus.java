@@ -12,9 +12,11 @@ import net.minecraft.world.inventory.MenuType;
 import net.minecraft.core.registries.Registries;
 
 import net.axio.infiniteunknownsnew.world.inventory.SimpleMachiningTableGUIMenu;
+import net.axio.infiniteunknownsnew.world.inventory.SimpleGravelFilterGUIMenu;
 import net.axio.infiniteunknownsnew.InfiniteUnknownsNewMod;
 
 public class InfiniteUnknownsNewModMenus {
 	public static final DeferredRegister<MenuType<?>> REGISTRY = DeferredRegister.create(Registries.MENU, InfiniteUnknownsNewMod.MODID);
 	public static final DeferredHolder<MenuType<?>, MenuType<SimpleMachiningTableGUIMenu>> SIMPLE_MACHINING_TABLE_GUI = REGISTRY.register("simple_machining_table_gui", () -> IMenuTypeExtension.create(SimpleMachiningTableGUIMenu::new));
+	public static final DeferredHolder<MenuType<?>, MenuType<SimpleGravelFilterGUIMenu>> SIMPLE_GRAVEL_FILTER_GUI = REGISTRY.register("simple_gravel_filter_gui", () -> IMenuTypeExtension.create(SimpleGravelFilterGUIMenu::new));
 }

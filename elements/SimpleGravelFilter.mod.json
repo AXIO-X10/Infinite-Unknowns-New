@@ -61,7 +61,7 @@
     "material": {
       "value": "NONE"
     },
-    "tickRate": 0,
+    "tickRate": 10,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -105,10 +105,10 @@
     "unbreakable": false,
     "vanillaToolTier": "IRON",
     "isBonemealable": false,
-    "hasInventory": false,
-    "guiBoundTo": "<NONE>",
-    "openGUIOnRightClick": false,
-    "inventorySize": 10,
+    "hasInventory": true,
+    "guiBoundTo": "SimpleGravelFilterGUI",
+    "openGUIOnRightClick": true,
+    "inventorySize": 3,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
@@ -122,6 +122,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "ProcessSimpleGravelFilter"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

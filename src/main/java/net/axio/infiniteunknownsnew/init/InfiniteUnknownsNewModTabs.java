@@ -24,6 +24,14 @@ public class InfiniteUnknownsNewModTabs {
 				tabData.accept(InfiniteUnknownsNewModItems.IRON_MACHINING_HAMMER.get());
 				tabData.accept(InfiniteUnknownsNewModItems.DIAMOND_MACHINING_HAMMER.get());
 				tabData.accept(InfiniteUnknownsNewModItems.NETHERITE_MACHINING_HAMMER.get());
+				tabData.accept(InfiniteUnknownsNewModItems.IRON_BAR.get());
+				tabData.accept(InfiniteUnknownsNewModItems.GOLD_BAR.get());
+				tabData.accept(InfiniteUnknownsNewModItems.DIAMOND_BAR.get());
+				tabData.accept(InfiniteUnknownsNewModItems.NETHERITE_BAR.get());
+				tabData.accept(InfiniteUnknownsNewModItems.IRON_PLATE.get());
+				tabData.accept(InfiniteUnknownsNewModItems.GOLD_PLATE.get());
+				tabData.accept(InfiniteUnknownsNewModItems.DIAMOND_PLATE.get());
+				tabData.accept(InfiniteUnknownsNewModItems.NETHERITE_PLATE.get());
 			})
 
 					.build());
