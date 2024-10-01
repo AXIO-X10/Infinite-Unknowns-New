@@ -1,3 +1,4 @@
+Language: English , [Chinese Simplified](README_zh.md)
 ![mod_icon](https://cdn.modrinth.com/data/cached_images/3982a4ecfc4b933003ed381a91df3655aa9ea62f.png)
 # Infinite unknowns, infinite possibilities!
 Welcome to Infinite Unknowns, a tech mod with no fixed theme.
