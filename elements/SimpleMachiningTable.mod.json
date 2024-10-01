@@ -108,7 +108,7 @@
     "hasInventory": true,
     "guiBoundTo": "SimpleMachiningTableGUI",
     "openGUIOnRightClick": true,
-    "inventorySize": 11,
+    "inventorySize": 12,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
@@ -122,6 +122,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onRedstoneOn": {
+      "name": "ProcessSimpleMachiningTable"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

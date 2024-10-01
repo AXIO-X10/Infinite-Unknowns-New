@@ -6,7 +6,6 @@ import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
-import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.GuiGraphics;
 
 import net.axio.infiniteunknownsnew.world.inventory.SimpleMachiningTableGUIMenu;
@@ -20,7 +19,6 @@ public class SimpleMachiningTableGUIScreen extends AbstractContainerScreen<Simpl
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
-	Button button_machining;
 
 	public SimpleMachiningTableGUIScreen(SimpleMachiningTableGUIMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -71,9 +69,5 @@ public class SimpleMachiningTableGUIScreen extends AbstractContainerScreen<Simpl
 	@Override
 	public void init() {
 		super.init();
-		button_machining = Button.builder(Component.translatable("gui.infinite_unknowns_new.simple_machining_table_gui.button_machining"), e -> {
-		}).bounds(this.leftPos + 87, this.topPos + 61, 36, 20).build();
-		guistate.put("button:button_machining", button_machining);
-		this.addRenderableWidget(button_machining);
 	}
 }

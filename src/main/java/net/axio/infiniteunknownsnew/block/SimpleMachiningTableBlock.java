@@ -22,6 +22,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import net.axio.infiniteunknownsnew.world.inventory.SimpleMachiningTableGUIMenu;
+import net.axio.infiniteunknownsnew.procedures.ProcessSimpleMachiningTableProcedure;
 import net.axio.infiniteunknownsnew.block.entity.SimpleMachiningTableBlockEntity;
 
 import io.netty.buffer.Unpooled;
@@ -34,6 +35,14 @@ public class SimpleMachiningTableBlock extends Block implements EntityBlock {
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 15;
+	}
+
+	@Override
+	public void neighborChanged(BlockState blockstate, Level world, BlockPos pos, Block neighborBlock, BlockPos fromPos, boolean moving) {
+		super.neighborChanged(blockstate, world, pos, neighborBlock, fromPos, moving);
+		if (world.getBestNeighborSignal(pos) > 0) {
+			ProcessSimpleMachiningTableProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		}
 	}
 
 	@Override

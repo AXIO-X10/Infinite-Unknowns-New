@@ -18,7 +18,9 @@ import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
@@ -45,7 +47,7 @@ public class SimpleMachiningTableGUIMenu extends AbstractContainerMenu implement
 		super(InfiniteUnknownsNewModMenus.SIMPLE_MACHINING_TABLE_GUI.get(), id);
 		this.entity = inv.player;
 		this.world = inv.player.level();
-		this.internal = new ItemStackHandler(11);
+		this.internal = new ItemStackHandler(12);
 		BlockPos pos = null;
 		if (extraData != null) {
 			pos = extraData.readBlockPos();
@@ -100,12 +102,16 @@ public class SimpleMachiningTableGUIMenu extends AbstractContainerMenu implement
 		}));
 		this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 61, 62) {
 		}));
-		this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 97, 26) {
-		}));
 		this.customSlots.put(10, this.addSlot(new SlotItemHandler(internal, 10, 133, 44) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
+			}
+		}));
+		this.customSlots.put(11, this.addSlot(new SlotItemHandler(internal, 11, 97, 26) {
+			@Override
+			public boolean mayPlace(ItemStack stack) {
+				return stack.is(ItemTags.create(ResourceLocation.parse("infinite_unknowns_new:machining_tools")));
 			}
 		}));
 		for (int si = 0; si < 3; ++si)
