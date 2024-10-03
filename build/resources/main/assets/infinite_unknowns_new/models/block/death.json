@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "infinite_unknowns_new:block/death",
+    "particle": "infinite_unknowns_new:block/death"
+  },
+  "render_type": "solid"
+}

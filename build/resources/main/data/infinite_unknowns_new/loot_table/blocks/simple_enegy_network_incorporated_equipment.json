@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "infinite_unknowns_new:blocks/simple_enegy_network_incorporated_equipment",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "infinite_unknowns_new:simple_enegy_network_incorporated_equipment"
+        }
+      ]
+    }
+  ]
+}

@@ -56,6 +56,10 @@ public class InfiniteUnknownsNewModItems {
 	public static final DeferredItem<Item> GOLD_PLATE = REGISTRY.register("gold_plate", GoldPlateItem::new);
 	public static final DeferredItem<Item> DIAMOND_PLATE = REGISTRY.register("diamond_plate", DiamondPlateItem::new);
 	public static final DeferredItem<Item> NETHERITE_PLATE = REGISTRY.register("netherite_plate", NetheritePlateItem::new);
+	public static final DeferredItem<Item> SIMPLE_ENEGY_NETWORK_INCORPORATED_EQUIPMENT = block(InfiniteUnknownsNewModBlocks.SIMPLE_ENEGY_NETWORK_INCORPORATED_EQUIPMENT);
+	public static final DeferredItem<Item> TEST_1 = block(InfiniteUnknownsNewModBlocks.TEST_1);
+	public static final DeferredItem<Item> TEST_2 = block(InfiniteUnknownsNewModBlocks.TEST_2);
+	public static final DeferredItem<Item> DEATH = block(InfiniteUnknownsNewModBlocks.DEATH);
 
 	// Start of user code block custom items
 	// End of user code block custom items

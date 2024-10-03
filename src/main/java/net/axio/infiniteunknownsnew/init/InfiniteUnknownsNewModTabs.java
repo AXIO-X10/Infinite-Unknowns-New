@@ -49,6 +49,10 @@ public class InfiniteUnknownsNewModTabs {
 				tabData.accept(InfiniteUnknownsNewModBlocks.STANDARD_MACHINING_TABLE.get().asItem());
 				tabData.accept(InfiniteUnknownsNewModBlocks.EXHANCED_MACHINING_TABLE.get().asItem());
 				tabData.accept(InfiniteUnknownsNewModBlocks.GRAVITATIONAL_MACHINING_TABLE.get().asItem());
+				tabData.accept(InfiniteUnknownsNewModBlocks.SIMPLE_ENEGY_NETWORK_INCORPORATED_EQUIPMENT.get().asItem());
+				tabData.accept(InfiniteUnknownsNewModBlocks.TEST_1.get().asItem());
+				tabData.accept(InfiniteUnknownsNewModBlocks.TEST_2.get().asItem());
+				tabData.accept(InfiniteUnknownsNewModBlocks.DEATH.get().asItem());
 			})
 
 					.build());

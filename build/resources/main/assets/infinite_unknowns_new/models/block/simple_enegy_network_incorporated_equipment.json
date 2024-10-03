@@ -1,0 +1,9 @@
+{
+  "parent": "infinite_unknowns_new:custom/simpleenegynetworkincorporatedequipment",
+  "textures": {
+    "all": "infinite_unknowns_new:block/texture1",
+    "particle": "infinite_unknowns_new:block/texture1",
+    "0": "infinite_unknowns_new:block/texture1"
+  },
+  "render_type": "solid"
+}
