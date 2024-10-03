@@ -1,6 +1,10 @@
 语言(Languages): [英语(English)](README.md) , 简体中文(Chinese Simplified)
 ![mod_icon](https://cdn.modrinth.com/data/cached_images/3982a4ecfc4b933003ed381a91df3655aa9ea62f.png)
 # 无限未知，无限可能！
+![Static Badge](https://img.shields.io/badge/支持MC版本-NF_1.21.1-orange)
+![Static Badge](https://img.shields.io/badge/项目状态-开发中-grey)
+![Static Badge](https://img.shields.io/badge/最新版本-无-grey)
+
 欢迎来到无限未知，一个没有固定主题的科技模组。
 这个模组使用MCreator制作。
 
