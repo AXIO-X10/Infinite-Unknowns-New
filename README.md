@@ -1,6 +1,10 @@
 语言(Languages): 英语(English) , [简体中文(Chinese Simplified)](README_zh.md)
 ![mod_icon](https://cdn.modrinth.com/data/cached_images/3982a4ecfc4b933003ed381a91df3655aa9ea62f.png)
 # Infinite unknowns, infinite possibilities!
+![Static Badge](https://img.shields.io/badge/SupportMCV-NF_1.21.1-orange)
+![Static Badge](https://img.shields.io/badge/ProjectStatus-InDev-grey)
+![Static Badge](https://img.shields.io/badge/LatestVersion-None-grey)
+
 Welcome to Infinite Unknowns, a tech mod with no fixed theme.
 This mod is made using MCreator.
 ## Content
