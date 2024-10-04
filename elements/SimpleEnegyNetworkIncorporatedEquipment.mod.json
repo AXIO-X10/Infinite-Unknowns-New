@@ -128,9 +128,6 @@
     "onDestroyedByPlayer": {
       "name": "ProcessSimpleEnegyNetworkIncorporatedEquipmentRemoveN"
     },
-    "onStartToDestroy": {
-      "name": "ProcessSimpleEnegyNetworkIncorporatedEquipmentRemove"
-    },
     "onBlockPlayedBy": {
       "name": "ProcessSimpleEnegyNetworkIncorporatedEquipment"
     },

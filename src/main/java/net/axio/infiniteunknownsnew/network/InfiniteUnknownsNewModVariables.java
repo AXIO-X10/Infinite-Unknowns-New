@@ -71,6 +71,8 @@ public class InfiniteUnknownsNewModVariables {
 			clone.temporary_uuid = original.temporary_uuid;
 			clone.temporary_ebneed = original.temporary_ebneed;
 			clone.temporary_ebstorage = original.temporary_ebstorage;
+			clone.backup_ebstorage = original.backup_ebstorage;
+			clone.backup_ebneed = original.backup_ebneed;
 			if (!event.isWasDeath()) {
 			}
 			event.getEntity().setData(PLAYER_VARIABLES, clone);
@@ -89,6 +91,8 @@ public class InfiniteUnknownsNewModVariables {
 		public String temporary_uuid = "\"\"";
 		public double temporary_ebneed = 0;
 		public double temporary_ebstorage = 0;
+		public double backup_ebstorage = 0;
+		public double backup_ebneed = 0;
 
 		@Override
 		public CompoundTag serializeNBT(HolderLookup.Provider lookupProvider) {
@@ -104,6 +108,8 @@ public class InfiniteUnknownsNewModVariables {
 			nbt.putString("temporary_uuid", temporary_uuid);
 			nbt.putDouble("temporary_ebneed", temporary_ebneed);
 			nbt.putDouble("temporary_ebstorage", temporary_ebstorage);
+			nbt.putDouble("backup_ebstorage", backup_ebstorage);
+			nbt.putDouble("backup_ebneed", backup_ebneed);
 			return nbt;
 		}
 
@@ -120,6 +126,8 @@ public class InfiniteUnknownsNewModVariables {
 			temporary_uuid = nbt.getString("temporary_uuid");
 			temporary_ebneed = nbt.getDouble("temporary_ebneed");
 			temporary_ebstorage = nbt.getDouble("temporary_ebstorage");
+			backup_ebstorage = nbt.getDouble("backup_ebstorage");
+			backup_ebneed = nbt.getDouble("backup_ebneed");
 		}
 
 		public void syncPlayerVariables(Entity entity) {

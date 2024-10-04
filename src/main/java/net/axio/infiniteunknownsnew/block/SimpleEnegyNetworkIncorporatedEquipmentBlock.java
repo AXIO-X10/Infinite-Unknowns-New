@@ -24,7 +24,6 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.BlockPos;
 
 import net.axio.infiniteunknownsnew.procedures.ProcessSimpleEnegyNetworkIncorporatedEquipmentSetProcedure;
-import net.axio.infiniteunknownsnew.procedures.ProcessSimpleEnegyNetworkIncorporatedEquipmentRemoveProcedure;
 import net.axio.infiniteunknownsnew.procedures.ProcessSimpleEnegyNetworkIncorporatedEquipmentRemoveNProcedure;
 import net.axio.infiniteunknownsnew.procedures.ProcessSimpleEnegyNetworkIncorporatedEquipmentProcedure;
 import net.axio.infiniteunknownsnew.block.entity.SimpleEnegyNetworkIncorporatedEquipmentBlockEntity;
@@ -70,14 +69,8 @@ public class SimpleEnegyNetworkIncorporatedEquipmentBlock extends Block implemen
 	@Override
 	public boolean onDestroyedByPlayer(BlockState blockstate, Level world, BlockPos pos, Player entity, boolean willHarvest, FluidState fluid) {
 		boolean retval = super.onDestroyedByPlayer(blockstate, world, pos, entity, willHarvest, fluid);
-		ProcessSimpleEnegyNetworkIncorporatedEquipmentRemoveNProcedure.execute(world, entity);
+		ProcessSimpleEnegyNetworkIncorporatedEquipmentRemoveNProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 		return retval;
-	}
-
-	@Override
-	public void attack(BlockState blockstate, Level world, BlockPos pos, Player entity) {
-		super.attack(blockstate, world, pos, entity);
-		ProcessSimpleEnegyNetworkIncorporatedEquipmentRemoveProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), entity);
 	}
 
 	@Override
