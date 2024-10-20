@@ -4,7 +4,7 @@ license="Apache License version 2.0"
 
 [[mods]]
 modId="infinite_unknowns_new"
-version="0"
+version="0.0.0.1"
 displayName="Infinite Unknowns"
 displayURL="https://center.mcmod.cn/224778/ , https://github.com/AXIO-X10 ,  https://space.bilibili.com/1048576888"
 logoFile="logo.png"
@@ -16,21 +16,24 @@ description="\u65E0\u9650\u672A\u77E5\uFF0C\u65E0\u9650\u53EF\u80FD\uFF01"
 # End of user code block mod configuration
 
 [[dependencies.infinite_unknowns_new]]
-    modId="neoforge"
-    type="required"
-    versionRange="[21.1.12,)"
-    ordering="AFTER"
-    side="BOTH"
+modId="neoforge"
+type="required"
+versionRange="[21.1.65,)"
+ordering="AFTER"
+side="BOTH"
 
 [[dependencies.infinite_unknowns_new]]
-    modId="minecraft"
-    type="required"
-    versionRange="[1.21.1]"
-    ordering="AFTER"
-    side="BOTH"
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="AFTER"
+side="BOTH"
 
 
 
+
+[[mixins]]
+    config="mixins.infinite_unknowns_new.json"
 
 # Start of user code block dependencies configuration
 # End of user code block dependencies configuration

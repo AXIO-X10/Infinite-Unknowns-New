@@ -32,7 +32,7 @@ C:\Users\30110\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-transp
 C:\Users\30110\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-unix-common\4.1.97.Final\d469d84265ab70095b01b40886cabdd433b6e664\netty-transport-native-unix-common-4.1.97.Final.jar
 C:\Users\30110\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-transport\4.1.97.Final\f37380d23c9bb079bc702910833b2fd532c9abd0\netty-transport-4.1.97.Final.jar
 C:\Users\30110\.mcreator\gradle\caches\modules-2\files-2.1\it.unimi.dsi\fastutil\8.5.12\c24946d46824bd528054bface3231d2ecb7e95e8\fastutil-8.5.12.jar
-C:\Users\30110\.mcreator\gradle\caches\modules-2\files-2.1\net.fabricmc\sponge-mixin\0.14.0+mixin.0.8.6\c265173c84346e9e5d42a2384b2b02bd39a4a899\sponge-mixin-0.14.0+mixin.0.8.6.jar
+C:\Users\30110\.mcreator\gradle\caches\modules-2\files-2.1\net.fabricmc\sponge-mixin\0.15.2+mixin.0.8.7\2af2f021d8e02a0220dc27a7a72b4666d66d44ca\sponge-mixin-0.15.2+mixin.0.8.7.jar
 C:\Users\30110\.mcreator\gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna-platform\5.14.0\28934d48aed814f11e4c584da55c49fa7032b31b\jna-platform-5.14.0.jar
 C:\Users\30110\.mcreator\gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\5.14.0\67bf3eaea4f0718cb376a181a629e5f88fa1c9dd\jna-5.14.0.jar
 C:\Users\30110\.mcreator\gradle\caches\modules-2\files-2.1\net.jodah\typetools\0.6.3\a01aaa6ddaea9ec07ec4f209487b7a46a526283a\typetools-0.6.3.jar
@@ -42,7 +42,7 @@ C:\Users\30110\.mcreator\gradle\caches\modules-2\files-2.1\net.neoforged.accesst
 C:\Users\30110\.mcreator\gradle\caches\modules-2\files-2.1\net.neoforged.fancymodloader\earlydisplay\4.0.24\c1f79ceaefcb4c79dea89e969563718a2d5157f\earlydisplay-4.0.24.jar
 C:\Users\30110\.mcreator\gradle\caches\modules-2\files-2.1\net.neoforged.fancymodloader\loader\4.0.24\8211b356d57387a287aa3fb1d425fdd34db6d638\loader-4.0.24.jar
 C:\Users\30110\.mcreator\gradle\caches\modules-2\files-2.1\net.neoforged\accesstransformers\10.0.1\fd83b5725f76eae9115e9355fa1c456a6a441400\accesstransformers-10.0.1.jar
-C:\Users\30110\.mcreator\gradle\caches\modules-2\files-2.1\net.neoforged\bus\8.0.1\9df0ed904cec279eb33ca6df420f6f82706ebb4c\bus-8.0.1.jar
+C:\Users\30110\.mcreator\gradle\caches\modules-2\files-2.1\net.neoforged\bus\8.0.2\163c9ef7c4bcca6d850c34e95261b606af91fe06\bus-8.0.2.jar
 C:\Users\30110\.mcreator\gradle\caches\modules-2\files-2.1\net.neoforged\coremods\7.0.3\9147e6f638b4272b3bd5fc8f92ad37802512c6c\coremods-7.0.3.jar
 C:\Users\30110\.mcreator\gradle\caches\modules-2\files-2.1\net.neoforged\JarJarFileSystems\0.4.1\78f59f89defcd032ed788b151ca6a0d40ace796a\JarJarFileSystems-0.4.1.jar
 C:\Users\30110\.mcreator\gradle\caches\modules-2\files-2.1\net.neoforged\JarJarMetadata\0.4.1\f8da03683dc81694556dc3e177c5e3bb77ae6fcb\JarJarMetadata-0.4.1.jar
@@ -99,10 +99,10 @@ C:\Users\30110\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.3
 C:\Users\30110\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.3\e9aca8c5479b520a2a7f0d542a118140e812c5e8\lwjgl-3.3.3-natives-windows-arm64.jar
 C:\Users\30110\.mcreator\gradle\caches\modules-2\files-2.1\org.lz4\lz4-java\1.8.0\4b986a99445e49ea5fbf5d149c4b63f6ed6c6780\lz4-java-1.8.0.jar
 C:\Users\30110\.mcreator\gradle\caches\modules-2\files-2.1\org.openjdk.nashorn\nashorn-core\15.4\f67f5ffaa5f5130cf6fb9b133da00c7df3b532a5\nashorn-core-15.4.jar
-C:\Users\30110\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\9.5\490bacc77de7cbc0be1a30bb3471072d705be4a4\asm-analysis-9.5.jar
-C:\Users\30110\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-commons\9.5\19ab5b5800a3910d30d3a3e64fdb00fd0cb42de0\asm-commons-9.5.jar
-C:\Users\30110\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\9.5\fd33c8b6373abaa675be407082fdfda35021254a\asm-tree-9.5.jar
-C:\Users\30110\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\9.5\64b5a1fc8c1b15ed2efd6a063e976bc8d3dc5ffe\asm-util-9.5.jar
-C:\Users\30110\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\9.5\dc6ea1875f4d64fbc85e1691c95b96a3d8569c90\asm-9.5.jar
+C:\Users\30110\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\9.7\e4a258b7eb96107106c0599f0061cfc1832fe07a\asm-analysis-9.7.jar
+C:\Users\30110\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-commons\9.7\e86dda4696d3c185fcc95d8d311904e7ce38a53f\asm-commons-9.7.jar
+C:\Users\30110\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\9.7\e446a17b175bfb733b87c5c2560ccb4e57d69f1a\asm-tree-9.7.jar
+C:\Users\30110\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\9.7\c0655519f24d92af2202cb681cd7c1569df6ead6\asm-util-9.7.jar
+C:\Users\30110\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\9.7\73d7b3086e14beb604ced229c302feff6449723\asm-9.7.jar
 C:\Users\30110\.mcreator\gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\2.0.9\7cf2726fdcfbc8610f9a71fb3ed639871f315340\slf4j-api-2.0.9.jar
-C:\Users\30110\MCreatorWorkspaces\infinite_challenge\build\moddev\artifacts\neoforge-21.1.12-minecraft-resources-aka-client-extra.jar
+C:\Users\30110\MCreatorWorkspaces\infinite_challenge\build\moddev\artifacts\neoforge-21.1.65-minecraft-resources-aka-client-extra.jar

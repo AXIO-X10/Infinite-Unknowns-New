@@ -49,7 +49,7 @@ public class CommandCommand {
 					if (entity != null)
 						direction = entity.getDirection();
 
-					ProcessDebugProcedure.execute(entity);
+					ProcessDebugProcedure.execute();
 					return 0;
 				})));
 	}

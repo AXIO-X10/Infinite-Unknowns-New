@@ -40,7 +40,7 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 150,
-          "y": 62
+          "y": 80
         }
       },
       {
@@ -58,7 +58,7 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 168,
-          "y": 62
+          "y": 80
         }
       },
       {
@@ -76,7 +76,7 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 186,
-          "y": 62
+          "y": 80
         }
       },
       {
@@ -93,98 +93,8 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 150,
-          "y": 80
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "disablePlacement": {
-            "fixedValue": false
-          },
-          "id": 4,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": true,
-          "x": 168,
-          "y": 80
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "disablePlacement": {
-            "fixedValue": false
-          },
-          "id": 5,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": true,
-          "x": 186,
-          "y": 80
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "disablePlacement": {
-            "fixedValue": false
-          },
-          "id": 6,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": true,
-          "x": 150,
-          "y": 98
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "disablePlacement": {
-            "fixedValue": false
-          },
-          "id": 7,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": true,
-          "x": 168,
-          "y": 98
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "disablePlacement": {
-            "fixedValue": false
-          },
-          "id": 8,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": true,
-          "x": 186,
-          "y": 98
+          "x": 222,
+          "y": 62
         }
       },
       {
@@ -199,31 +109,13 @@
       {
         "type": "outputslot",
         "data": {
-          "id": 10,
+          "id": 4,
           "disablePickup": {
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
           "x": 258,
           "y": 80
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": "TAG:mod:machining_tools"
-          },
-          "disablePlacement": {
-            "fixedValue": false
-          },
-          "id": 11,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": true,
-          "x": 222,
-          "y": 62
         }
       }
     ],

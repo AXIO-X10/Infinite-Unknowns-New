@@ -9,8 +9,6 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 
 import net.minecraft.world.level.block.Block;
 
-import net.axio.infiniteunknownsnew.block.Test2Block;
-import net.axio.infiniteunknownsnew.block.Test1Block;
 import net.axio.infiniteunknownsnew.block.StandardMachiningTableBlock;
 import net.axio.infiniteunknownsnew.block.StandardGravelFilterBlock;
 import net.axio.infiniteunknownsnew.block.StandardFrameworkBlock;
@@ -18,6 +16,7 @@ import net.axio.infiniteunknownsnew.block.SimpleMachiningTableBlock;
 import net.axio.infiniteunknownsnew.block.SimpleGravelFilterBlock;
 import net.axio.infiniteunknownsnew.block.SimpleFrameworkBlock;
 import net.axio.infiniteunknownsnew.block.SimpleEnegyNetworkIncorporatedEquipmentBlock;
+import net.axio.infiniteunknownsnew.block.SimpleCompressionFurnaceBlock;
 import net.axio.infiniteunknownsnew.block.GravitationalMachiningTableBlock;
 import net.axio.infiniteunknownsnew.block.GravitationalGravelFilterBlock;
 import net.axio.infiniteunknownsnew.block.GravitationalFrameworkBlock;
@@ -42,9 +41,8 @@ public class InfiniteUnknownsNewModBlocks {
 	public static final DeferredBlock<Block> EXHANCED_MACHINING_TABLE = REGISTRY.register("exhanced_machining_table", ExhancedMachiningTableBlock::new);
 	public static final DeferredBlock<Block> GRAVITATIONAL_MACHINING_TABLE = REGISTRY.register("gravitational_machining_table", GravitationalMachiningTableBlock::new);
 	public static final DeferredBlock<Block> SIMPLE_ENEGY_NETWORK_INCORPORATED_EQUIPMENT = REGISTRY.register("simple_enegy_network_incorporated_equipment", SimpleEnegyNetworkIncorporatedEquipmentBlock::new);
-	public static final DeferredBlock<Block> TEST_1 = REGISTRY.register("test_1", Test1Block::new);
-	public static final DeferredBlock<Block> TEST_2 = REGISTRY.register("test_2", Test2Block::new);
 	public static final DeferredBlock<Block> DEATH = REGISTRY.register("death", DeathBlock::new);
+	public static final DeferredBlock<Block> SIMPLE_COMPRESSION_FURNACE = REGISTRY.register("simple_compression_furnace", SimpleCompressionFurnaceBlock::new);
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

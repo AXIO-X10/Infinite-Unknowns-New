@@ -32,6 +32,13 @@ public class InfiniteUnknownsNewModTabs {
 				tabData.accept(InfiniteUnknownsNewModItems.GOLD_PLATE.get());
 				tabData.accept(InfiniteUnknownsNewModItems.DIAMOND_PLATE.get());
 				tabData.accept(InfiniteUnknownsNewModItems.NETHERITE_PLATE.get());
+				tabData.accept(InfiniteUnknownsNewModItems.ENHANCED_CRYSTAL_MATRIX.get());
+			})
+
+					.build());
+	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> PAGE_DEBUG = REGISTRY.register("page_debug",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.infinite_unknowns_new.page_debug")).icon(() -> new ItemStack(InfiniteUnknownsNewModBlocks.DEATH.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(InfiniteUnknownsNewModBlocks.DEATH.get().asItem());
 			})
 
 					.build());
@@ -50,9 +57,7 @@ public class InfiniteUnknownsNewModTabs {
 				tabData.accept(InfiniteUnknownsNewModBlocks.EXHANCED_MACHINING_TABLE.get().asItem());
 				tabData.accept(InfiniteUnknownsNewModBlocks.GRAVITATIONAL_MACHINING_TABLE.get().asItem());
 				tabData.accept(InfiniteUnknownsNewModBlocks.SIMPLE_ENEGY_NETWORK_INCORPORATED_EQUIPMENT.get().asItem());
-				tabData.accept(InfiniteUnknownsNewModBlocks.TEST_1.get().asItem());
-				tabData.accept(InfiniteUnknownsNewModBlocks.TEST_2.get().asItem());
-				tabData.accept(InfiniteUnknownsNewModBlocks.DEATH.get().asItem());
+				tabData.accept(InfiniteUnknownsNewModBlocks.SIMPLE_COMPRESSION_FURNACE.get().asItem());
 			})
 
 					.build());

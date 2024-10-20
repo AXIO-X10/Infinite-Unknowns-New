@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "infinite_unknowns_new:block/compression_furnace_side",
+    "up": "infinite_unknowns_new:block/compression_furnace_side",
+    "north": "infinite_unknowns_new:block/compression_furnace_front",
+    "east": "infinite_unknowns_new:block/compression_furnace_side",
+    "south": "infinite_unknowns_new:block/compression_furnace_side",
+    "west": "infinite_unknowns_new:block/compression_furnace_side",
+    "particle": "infinite_unknowns_new:block/compression_furnace_side"
+  },
+  "render_type": "solid"
+}

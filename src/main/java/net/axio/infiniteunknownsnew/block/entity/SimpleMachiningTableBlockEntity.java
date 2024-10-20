@@ -28,7 +28,7 @@ import java.util.stream.IntStream;
 import io.netty.buffer.Unpooled;
 
 public class SimpleMachiningTableBlockEntity extends RandomizableContainerBlockEntity implements WorldlyContainer {
-	private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(12, ItemStack.EMPTY);
+	private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(5, ItemStack.EMPTY);
 	private final SidedInvWrapper handler = new SidedInvWrapper(this, null);
 
 	public SimpleMachiningTableBlockEntity(BlockPos position, BlockState state) {

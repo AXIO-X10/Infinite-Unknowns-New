@@ -23,6 +23,7 @@ import net.axio.infiniteunknownsnew.item.GravitationalEnergizingGlovesItem;
 import net.axio.infiniteunknownsnew.item.GoldPlateItem;
 import net.axio.infiniteunknownsnew.item.GoldBarItem;
 import net.axio.infiniteunknownsnew.item.ExhancedEnergizingGlovesItem;
+import net.axio.infiniteunknownsnew.item.EnhancedCrystalMatrixItem;
 import net.axio.infiniteunknownsnew.item.DiamondPlateItem;
 import net.axio.infiniteunknownsnew.item.DiamondMachiningHammerItem;
 import net.axio.infiniteunknownsnew.item.DiamondBarItem;
@@ -57,9 +58,9 @@ public class InfiniteUnknownsNewModItems {
 	public static final DeferredItem<Item> DIAMOND_PLATE = REGISTRY.register("diamond_plate", DiamondPlateItem::new);
 	public static final DeferredItem<Item> NETHERITE_PLATE = REGISTRY.register("netherite_plate", NetheritePlateItem::new);
 	public static final DeferredItem<Item> SIMPLE_ENEGY_NETWORK_INCORPORATED_EQUIPMENT = block(InfiniteUnknownsNewModBlocks.SIMPLE_ENEGY_NETWORK_INCORPORATED_EQUIPMENT);
-	public static final DeferredItem<Item> TEST_1 = block(InfiniteUnknownsNewModBlocks.TEST_1);
-	public static final DeferredItem<Item> TEST_2 = block(InfiniteUnknownsNewModBlocks.TEST_2);
 	public static final DeferredItem<Item> DEATH = block(InfiniteUnknownsNewModBlocks.DEATH);
+	public static final DeferredItem<Item> ENHANCED_CRYSTAL_MATRIX = REGISTRY.register("enhanced_crystal_matrix", EnhancedCrystalMatrixItem::new);
+	public static final DeferredItem<Item> SIMPLE_COMPRESSION_FURNACE = block(InfiniteUnknownsNewModBlocks.SIMPLE_COMPRESSION_FURNACE);
 
 	// Start of user code block custom items
 	// End of user code block custom items

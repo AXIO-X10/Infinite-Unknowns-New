@@ -18,9 +18,7 @@ import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.tags.ItemTags;
 import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
@@ -47,7 +45,7 @@ public class SimpleMachiningTableGUIMenu extends AbstractContainerMenu implement
 		super(InfiniteUnknownsNewModMenus.SIMPLE_MACHINING_TABLE_GUI.get(), id);
 		this.entity = inv.player;
 		this.world = inv.player.level();
-		this.internal = new ItemStackHandler(12);
+		this.internal = new ItemStackHandler(5);
 		BlockPos pos = null;
 		if (extraData != null) {
 			pos = extraData.readBlockPos();
@@ -84,34 +82,18 @@ public class SimpleMachiningTableGUIMenu extends AbstractContainerMenu implement
 				}
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 25, 26) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 25, 44) {
 		}));
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 43, 26) {
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 43, 44) {
 		}));
-		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 61, 26) {
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 61, 44) {
 		}));
-		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 25, 44) {
+		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 97, 26) {
 		}));
-		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 43, 44) {
-		}));
-		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 61, 44) {
-		}));
-		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 25, 62) {
-		}));
-		this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 43, 62) {
-		}));
-		this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 61, 62) {
-		}));
-		this.customSlots.put(10, this.addSlot(new SlotItemHandler(internal, 10, 133, 44) {
+		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 133, 44) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
-			}
-		}));
-		this.customSlots.put(11, this.addSlot(new SlotItemHandler(internal, 11, 97, 26) {
-			@Override
-			public boolean mayPlace(ItemStack stack) {
-				return stack.is(ItemTags.create(ResourceLocation.parse("infinite_unknowns_new:machining_tools")));
 			}
 		}));
 		for (int si = 0; si < 3; ++si)
@@ -141,16 +123,16 @@ public class SimpleMachiningTableGUIMenu extends AbstractContainerMenu implement
 		if (slot != null && slot.hasItem()) {
 			ItemStack itemstack1 = slot.getItem();
 			itemstack = itemstack1.copy();
-			if (index < 11) {
-				if (!this.moveItemStackTo(itemstack1, 11, this.slots.size(), true))
+			if (index < 5) {
+				if (!this.moveItemStackTo(itemstack1, 5, this.slots.size(), true))
 					return ItemStack.EMPTY;
 				slot.onQuickCraft(itemstack1, itemstack);
-			} else if (!this.moveItemStackTo(itemstack1, 0, 11, false)) {
-				if (index < 11 + 27) {
-					if (!this.moveItemStackTo(itemstack1, 11 + 27, this.slots.size(), true))
+			} else if (!this.moveItemStackTo(itemstack1, 0, 5, false)) {
+				if (index < 5 + 27) {
+					if (!this.moveItemStackTo(itemstack1, 5 + 27, this.slots.size(), true))
 						return ItemStack.EMPTY;
 				} else {
-					if (!this.moveItemStackTo(itemstack1, 11, 11 + 27, false))
+					if (!this.moveItemStackTo(itemstack1, 5, 5 + 27, false))
 						return ItemStack.EMPTY;
 				}
 				return ItemStack.EMPTY;
