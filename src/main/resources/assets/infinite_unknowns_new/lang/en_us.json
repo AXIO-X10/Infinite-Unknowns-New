@@ -1,6 +1,6 @@
 {
-  "block.infinite_unknowns_new.gravitational_gravel_filter": "§bGravitational Gravel Filter",
   "block.infinite_unknowns_new.simple_enegy_network_incorporated_equipment": "§cSimple Enegy Network Incorporated Equipment",
+  "block.infinite_unknowns_new.gravitational_gravel_filter": "§bGravitational Gravel Filter",
   "item.infinite_unknowns_new.iron_machining_hammer": "§cIron Machining Hammer",
   "block.infinite_unknowns_new.simple_framework": "§cSimple Framework",
   "gui.infinite_unknowns_new.exhanced_machining_table_gui.label_sscsimple_machining_table": "§aExhanced Machining Table",
@@ -51,6 +51,7 @@
   "item.infinite_unknowns_new.diamond_machining_hammer": "§6Diamond Machining Hammer",
   "death.attack.electric_shock.item": "%1$s was electrocuted %2$s using %3$s",
   "block.infinite_unknowns_new.exhanced_gravel_filter": "§aExhanced Gravel Filter",
+  "item_group.infinite_unknowns_new.page_semi_finished": "§6Infinite Unknowns - Semi Finished",
   "gui.infinite_unknowns_new.simple_gravel_filter_gui.label_sscsimple_gravel_filter": "§cSimple Gravel Filter",
   "item.infinite_unknowns_new.diamond_plate": "§aDiamond Plate",
   "gui.infinite_unknowns_new.simple_machining_table_gui.label_sscsimple_machining_table": "§cSimple Machining Table",

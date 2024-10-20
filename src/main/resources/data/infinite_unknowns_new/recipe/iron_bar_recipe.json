@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    " b"
+  ],
+  "key": {
+    "a": {
+      "item": "infinite_unknowns_new:iron_machining_hammer"
+    },
+    "b": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "id": "infinite_unknowns_new:iron_bar",
+    "count": 1
+  }
+}

@@ -4,7 +4,7 @@ license="Apache License version 2.0"
 
 [[mods]]
 modId="infinite_unknowns_new"
-version="0.0.0.1"
+version="0.0.0.2"
 displayName="Infinite Unknowns"
 displayURL="https://center.mcmod.cn/224778/ , https://github.com/AXIO-X10 ,  https://space.bilibili.com/1048576888"
 logoFile="logo.png"

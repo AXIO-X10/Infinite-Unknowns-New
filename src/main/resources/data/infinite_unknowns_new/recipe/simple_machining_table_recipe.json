@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aea"
+  ],
+  "key": {
+    "a": {
+      "item": "infinite_unknowns_new:iron_plate"
+    },
+    "b": {
+      "item": "minecraft:crafting_table"
+    },
+    "c": {
+      "item": "infinite_unknowns_new:iron_bar"
+    },
+    "d": {
+      "item": "infinite_unknowns_new:iron_machining_hammer"
+    },
+    "e": {
+      "item": "infinite_unknowns_new:simple_framework"
+    }
+  },
+  "result": {
+    "id": "infinite_unknowns_new:simple_machining_table",
+    "count": 1
+  }
+}

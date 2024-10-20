@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "infinite_unknowns_new:iron_bar"
+    },
+    "b": {
+      "item": "infinite_unknowns_new:iron_plate"
+    },
+    "c": {
+      "item": "minecraft:redstone"
+    },
+    "d": {
+      "item": "infinite_unknowns_new:iron_machining_hammer"
+    }
+  },
+  "result": {
+    "id": "infinite_unknowns_new:simple_framework",
+    "count": 1
+  }
+}

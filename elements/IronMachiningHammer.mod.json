@@ -24,8 +24,8 @@
     },
     "destroyAnyBlock": false,
     "immuneToFire": false,
-    "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false,
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": true,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
