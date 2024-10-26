@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "infinite_unknowns_new:block/logic_gate_and"
+    },
+    "facing=east": {
+      "model": "infinite_unknowns_new:block/logic_gate_and",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "infinite_unknowns_new:block/logic_gate_and",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "infinite_unknowns_new:block/logic_gate_and",
+      "y": 270
+    }
+  }
+}

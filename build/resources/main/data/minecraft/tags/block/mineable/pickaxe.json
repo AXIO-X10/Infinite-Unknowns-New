@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "infinite_unknowns_new:logic_gate_and",
     "infinite_unknowns_new:simple_compression_furnace",
     "infinite_unknowns_new:simple_enegy_network_incorporated_equipment",
     "infinite_unknowns_new:gravitational_machining_table",

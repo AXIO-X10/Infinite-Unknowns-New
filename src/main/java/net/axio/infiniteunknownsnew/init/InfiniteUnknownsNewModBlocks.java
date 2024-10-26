@@ -17,6 +17,7 @@ import net.axio.infiniteunknownsnew.block.SimpleGravelFilterBlock;
 import net.axio.infiniteunknownsnew.block.SimpleFrameworkBlock;
 import net.axio.infiniteunknownsnew.block.SimpleEnegyNetworkIncorporatedEquipmentBlock;
 import net.axio.infiniteunknownsnew.block.SimpleCompressionFurnaceBlock;
+import net.axio.infiniteunknownsnew.block.LogicGateANDBlock;
 import net.axio.infiniteunknownsnew.block.GravitationalMachiningTableBlock;
 import net.axio.infiniteunknownsnew.block.GravitationalGravelFilterBlock;
 import net.axio.infiniteunknownsnew.block.GravitationalFrameworkBlock;
@@ -43,6 +44,7 @@ public class InfiniteUnknownsNewModBlocks {
 	public static final DeferredBlock<Block> SIMPLE_ENEGY_NETWORK_INCORPORATED_EQUIPMENT = REGISTRY.register("simple_enegy_network_incorporated_equipment", SimpleEnegyNetworkIncorporatedEquipmentBlock::new);
 	public static final DeferredBlock<Block> DEATH = REGISTRY.register("death", DeathBlock::new);
 	public static final DeferredBlock<Block> SIMPLE_COMPRESSION_FURNACE = REGISTRY.register("simple_compression_furnace", SimpleCompressionFurnaceBlock::new);
+	public static final DeferredBlock<Block> LOGIC_GATE_AND = REGISTRY.register("logic_gate_and", LogicGateANDBlock::new);
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

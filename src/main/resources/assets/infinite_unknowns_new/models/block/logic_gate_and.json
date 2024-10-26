@@ -1,0 +1,9 @@
+{
+  "parent": "infinite_unknowns_new:custom/logicgate_and",
+  "textures": {
+    "all": "infinite_unknowns_new:block/logicgate_and",
+    "particle": "infinite_unknowns_new:block/logicgate_and",
+    "0": "infinite_unknowns_new:block/logicgate_and"
+  },
+  "render_type": "solid"
+}

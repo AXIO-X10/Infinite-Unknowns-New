@@ -25,6 +25,9 @@ public class InfiniteUnknownsNewModTabs {
 				tabData.accept(InfiniteUnknownsNewModItems.EXHANCED_ENERGIZING_GLOVES.get());
 				tabData.accept(InfiniteUnknownsNewModItems.GRAVITATIONAL_ENERGIZING_GLOVES.get());
 				tabData.accept(InfiniteUnknownsNewModItems.ENHANCED_CRYSTAL_MATRIX.get());
+				tabData.accept(InfiniteUnknownsNewModItems.BLUEPRINT.get());
+				tabData.accept(InfiniteUnknownsNewModItems.RESEARCH_REPORT.get());
+				tabData.accept(InfiniteUnknownsNewModItems.RESEARCH_RECORD.get());
 			})
 
 					.build());
@@ -44,6 +47,7 @@ public class InfiniteUnknownsNewModTabs {
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> PAGE_DEBUG = REGISTRY.register("page_debug",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.infinite_unknowns_new.page_debug")).icon(() -> new ItemStack(InfiniteUnknownsNewModBlocks.DEATH.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(InfiniteUnknownsNewModBlocks.DEATH.get().asItem());
+				tabData.accept(InfiniteUnknownsNewModBlocks.LOGIC_GATE_AND.get().asItem());
 			})
 
 					.build());

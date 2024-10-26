@@ -13,6 +13,8 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.axio.infiniteunknownsnew.item.StandardEnergizingGlovesItem;
+import net.axio.infiniteunknownsnew.item.ResearchReportItem;
+import net.axio.infiniteunknownsnew.item.ResearchRecordItem;
 import net.axio.infiniteunknownsnew.item.NetheritePlateItem;
 import net.axio.infiniteunknownsnew.item.NetheriteMachiningHammerItem;
 import net.axio.infiniteunknownsnew.item.NetheriteBarItem;
@@ -27,6 +29,7 @@ import net.axio.infiniteunknownsnew.item.EnhancedCrystalMatrixItem;
 import net.axio.infiniteunknownsnew.item.DiamondPlateItem;
 import net.axio.infiniteunknownsnew.item.DiamondMachiningHammerItem;
 import net.axio.infiniteunknownsnew.item.DiamondBarItem;
+import net.axio.infiniteunknownsnew.item.BlueprintItem;
 import net.axio.infiniteunknownsnew.InfiniteUnknownsNewMod;
 
 public class InfiniteUnknownsNewModItems {
@@ -61,6 +64,10 @@ public class InfiniteUnknownsNewModItems {
 	public static final DeferredItem<Item> DEATH = block(InfiniteUnknownsNewModBlocks.DEATH);
 	public static final DeferredItem<Item> ENHANCED_CRYSTAL_MATRIX = REGISTRY.register("enhanced_crystal_matrix", EnhancedCrystalMatrixItem::new);
 	public static final DeferredItem<Item> SIMPLE_COMPRESSION_FURNACE = block(InfiniteUnknownsNewModBlocks.SIMPLE_COMPRESSION_FURNACE);
+	public static final DeferredItem<Item> LOGIC_GATE_AND = block(InfiniteUnknownsNewModBlocks.LOGIC_GATE_AND);
+	public static final DeferredItem<Item> BLUEPRINT = REGISTRY.register("blueprint", BlueprintItem::new);
+	public static final DeferredItem<Item> RESEARCH_REPORT = REGISTRY.register("research_report", ResearchReportItem::new);
+	public static final DeferredItem<Item> RESEARCH_RECORD = REGISTRY.register("research_record", ResearchRecordItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items
